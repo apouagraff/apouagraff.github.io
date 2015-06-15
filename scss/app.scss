@@ -46,12 +46,14 @@ $space-grey: #757d80;
 .top-bar .name h1 {
 	padding-left:50px;
 }
-.title-area {
+
+.title-area,
+.top-bar.expanded .title-area {
 	background: url(../img/logo.png) no-repeat;
 	background-size: 56px auto;
 	background-position: 15px center;
 }
-.wesh{
+.agrafflblue{
 	color:$primary_color;
 }
 
