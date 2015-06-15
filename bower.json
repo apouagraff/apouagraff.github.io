@@ -1,30 +1,8 @@
 {
-  "name": "agraff",
-  "version": "1.3.9",
-  "homepage": "http://apouagraff.github.io",
-  "authors": [
-    "Apou Agraff <apou@agraff.be>"
-  ],
-  "description": "json init file",
-  "main": "agraff.json",
-  "moduleType": [
-    "globals"
-  ],
-  "keywords": [
-    "lets",
-    "go"
-  ],
-  "license": "MIT",
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "name": "foundation-compass-app",
+  "version": "0.0.1",
+  "private": "true",
   "dependencies": {
-    "bootstrap": "~3.3.2",
-    "html5-boilerplate": "~5.0.0"
+    "foundation": "zurb/bower-foundation"
   }
 }
