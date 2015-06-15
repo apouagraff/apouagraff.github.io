@@ -6337,9 +6337,11 @@ th.hide-for-touch {
 section h1 {
   font-weight: 200; }
 
-#hello {
-  background-color: #2a3037;
+section {
   min-height: 100%; }
+
+#hello {
+  background-color: #2a3037; }
   #hello h1 {
     color: #757d80; }
 
