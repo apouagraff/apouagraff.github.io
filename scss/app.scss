@@ -1,5 +1,7 @@
 @import "settings";
 @import "foundation";
+@import "font-awesome-compass";
+@import "font-awesome";
 
 // Or selectively include components
 // @import
@@ -42,7 +44,7 @@
 //Colors
 $space-grey: #757d80;
 
-//logo top bar
+//Top Bar
 .top-bar .name h1 {
 	padding-left:50px;
 }
@@ -53,30 +55,101 @@ $space-grey: #757d80;
 	background-size: 56px auto;
 	background-position: 15px center;
 }
-.agrafflblue{
-	color:$primary_color;
+
+header{
+	border-bottom:1px solid $tertiary-color;
 }
+
+//wrappinp
+html, body { height:100%; }
+.contentwrapper {
+	//display:table-cell;
+	vertical-align:middle; 
+}
+
+
 
 //Texts
-section h1{
-	font-weight: 200;
+.agraffblue{
+	color:$primary_color;
 }
-
-
+.spacegrey{
+	color: $space-grey;
+}
 
 //Sections
-section{
-	min-height: 100%;
-}
 
-#hello {
-	background-color: lighten($secondary_color, 10%);
-	h1{
-		color: $space-grey;
+section {
+	//display:table;
+	height: 100%; //for wrapping
+	//generic style for section
+	h1 {
+		font-weight: 200;
+	}
+	&.darked {
+		background-color: $secondary_color;
+		h1, p{
+			color: $white;
+		}
+		@media #{$medium-up}{
+			padding-top:50px;
+		}
+	}
+	
+	&.lighted {
+		background-color: $white;
+		h1, p{
+			color: $charcoal;
+		}
+	}
+	//custom style for section
+	&.hello {
+		background-image: url("../img/bg_bonjour.png");
+		background-position: top right;
+		background-size: 50%;
+		background-repeat: no-repeat;
+
+	}
+	&.picture {
+		line-height: rem-calc(312px);
+		> img {
+			//background-color:$white;
+			vertical-align:bottom;
+		}
 	}
 }
 
-//Sticky stuff
+//tricky stuff
+
+//links
+	// Btn from Tobias
+	h2 > a {
+  		position: relative;
+  		color: #000;
+  		text-decoration: none;
+	}
+	h2 > a:hover {
+    	color: $primary_color;
+	}
+	h2 > a:before {
+  		content: "";
+  		position: absolute;
+  		width: 100%;
+  		height: 2px;
+  		bottom: 0;
+  		left: 0;
+  		background-color: #000;
+  		visibility: hidden;
+  		-webkit-transform: scaleX(0);
+  		transform: scaleX(0);
+  		-webkit-transition: all 0.3s ease-in-out 0s;
+  		transition: all 0.3s ease-in-out 0s;
+	}
+	h2 > a:hover:before {
+	  visibility: visible;
+	  -webkit-transform: scaleX(1);
+	  transform: scaleX(1);
+	}
 
 .fullWidth {
    width: 100%;
@@ -85,8 +158,5 @@ section{
    max-width: initial;
 }
 
-.off-canvas-wrap {
-  .inner-wrap{
-    min-height: 100vh;
-  }
-}
+//custom_components
+.continuing { @include button; }

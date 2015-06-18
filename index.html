@@ -13,7 +13,7 @@
 
   <!-- NAVIGATION-->
 <header class="fixed contain-to-grid">
-  <nav class="top-bar" data-topbar role="navigation">
+  <nav class="top-bar" data-topbar data-options="is_hover: false" role="navigation">
     <ul class="title-area">
       <li class="name">
         <h1 class="hide-for-small-only"><a href="#"><span class="agraffblue">apou</span>.agraff.be</a></h1>
@@ -22,31 +22,43 @@
       <li class="toggle-topbar menu-icon"><a href="#"><span>Discover</span></a></li>
     </ul>
 
-    <section class="top-bar-section">
+    <div class="top-bar-section">
       <!-- Right Nav Section -->
       <ul class="right">
-        <li class="active"><a href="#">Bonjour on teste</a></li>
+        <li class="active"><a href="#">Bonjour</a></li>
         <li class="has-dropdown">
           <a href="#">Services</a>
           <ul class="dropdown">
             <li><a href="#boostrapping">Boostrapping</a></li>
-            <li><a href="#">Active link in dropdown</a></li>
+            <li><a href="#">Webdesign</a></li>
           </ul>
         </li>
         <li><a href="#">Contact</a></li>
+        <li><a href="#"><img src="img/social/be@2x.png" height="30" width="30" alt="Go to my Behance"></a></li>
+        <li><a href="#"><img src="img/social/in@2x.png" height="30" width="30" alt="Go to my Linkedin"></a></li>
       </ul>
-    </section>
+    </div>
     </nav>
 </header>
 <!-- END NAVIGATION -->
-<section id="hello" class="fullWidth">
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Bonjour</h1>
-      </div>
-    </div>
+<section id="hello" class="fullWidth hello darked">
+        <div class="row " data-equalizer>
+            <div class="medium-6 columns" data-equalizer-watch>
+                <h1>Bonjour</i></h1>
+                <p>Je suis un designer Belge, passionné par l'image et le création depuis l'enfance. Je suis né en 1986, je fut donc bercé par l'avènement de l'informatique et l'explosion d'Internet.</p><p>Bref... "Au bon endroit au bon moment": une chance inouie que j'ai décidé de ne pas laisser passer, en faisant de celle ci, mon métier...</p><p><span class="agraffblue">On m'appelle <strong>Apou</strong>, vous pour servir...</span><br><span class="spacegrey">Défilez vers le bas pour découvrir  comment :)</span></p>
+            </div>
+            <div class="medium-6 columns show-for-medium-up picture" data-equalizer-watch>
+                <img src="img/bonjour.png" alt="les mains de l'indien">
+            </div>
+      
+            <div class="large-12 columns text-center">
+                    <a href="#" class="button round">Contact me</a>
+                    <div><span>Contact me</span></div>
+            </div>
+        </div>
+
 </section>
-<section id="boostrapping" class="fullWidth">
+<section id="boostrapping" class="fullWidth lighted">
     <div class="row">
       <div class="large-12 columns">
         <h1>Bootstrapping</h1>
