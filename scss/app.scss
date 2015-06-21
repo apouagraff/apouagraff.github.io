@@ -61,10 +61,20 @@ header{
 }
 
 //wrappinp
-html, body { height:100%; }
-.contentwrapper {
-	//display:table-cell;
-	vertical-align:middle; 
+html, body {
+	height:100%;
+}
+@media #{$medium-up}{
+    .valign-center {
+        position: relative;
+        top: 50%;
+        > .columns {
+          transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          -o-transform:translateY(-50%);
+          -ms-transform:translateY(-50%);
+        }
+    }
 }
 
 
@@ -91,9 +101,6 @@ section {
 		h1, p{
 			color: $white;
 		}
-		@media #{$medium-up}{
-			padding-top:50px;
-		}
 	}
 	
 	&.lighted {
@@ -108,14 +115,6 @@ section {
 		background-position: top right;
 		background-size: 50%;
 		background-repeat: no-repeat;
-
-	}
-	&.picture {
-		line-height: rem-calc(312px);
-		> img {
-			//background-color:$white;
-			vertical-align:bottom;
-		}
 	}
 }
 

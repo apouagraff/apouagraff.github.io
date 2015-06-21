@@ -1600,8 +1600,8 @@ button, .button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  padding: 0.375rem 0.75rem 0.4375rem 0.75rem;
-  font-size: 1rem;
+  padding: 0.3125rem 0.625rem 0.375rem 0.625rem;
+  font-size: 0.8125rem;
   background-color: #0c99eb;
   border-color: white;
   color: #FFFFFF;
@@ -1651,14 +1651,14 @@ button, .button {
     button.info:hover, button.info:focus, .button.info:hover, .button.info:focus {
       color: #333333; }
   button.large, .button.large {
-    padding: 0.375rem 0.75rem 0.4375rem 0.75rem;
-    font-size: 1rem; }
+    padding: 0.3125rem 0.625rem 0.375rem 0.625rem;
+    font-size: 0.8125rem; }
   button.small, .button.small {
-    padding: 0.375rem 0.75rem 0.4375rem 0.75rem;
-    font-size: 1rem; }
+    padding: 0.1875rem 0.375rem 0.25rem 0.375rem;
+    font-size: 0.6875rem; }
   button.tiny, .button.tiny {
-    padding: 0.375rem 0.75rem 0.4375rem 0.75rem;
-    font-size: 1rem; }
+    padding: 0.1875rem 0.375rem 0.25rem 0.375rem;
+    font-size: 0.6875rem; }
   button.expand, .button.expand {
     padding-left: 0;
     padding-right: 0;
@@ -2060,15 +2060,15 @@ button::-moz-focus-inner {
     .button-group.round.stack > * > .button {
       border-radius: 0; }
     .button-group.round.stack > *:first-child, .button-group.round.stack > *:first-child > a, .button-group.round.stack > *:first-child > button, .button-group.round.stack > *:first-child > .button {
-      -webkit-top-left-radius: 0.375rem;
-      -webkit-top-right-radius: 0.375rem;
-      border-top-left-radius: 0.375rem;
-      border-top-right-radius: 0.375rem; }
+      -webkit-top-left-radius: 0.3125rem;
+      -webkit-top-right-radius: 0.3125rem;
+      border-top-left-radius: 0.3125rem;
+      border-top-right-radius: 0.3125rem; }
     .button-group.round.stack > *:last-child, .button-group.round.stack > *:last-child > a, .button-group.round.stack > *:last-child > button, .button-group.round.stack > *:last-child > .button {
-      -webkit-bottom-left-radius: 0.375rem;
-      -webkit-bottom-right-radius: 0.375rem;
-      border-bottom-left-radius: 0.375rem;
-      border-bottom-right-radius: 0.375rem; }
+      -webkit-bottom-left-radius: 0.3125rem;
+      -webkit-bottom-right-radius: 0.3125rem;
+      border-bottom-left-radius: 0.3125rem;
+      border-bottom-right-radius: 0.3125rem; }
   @media only screen and (min-width: 40.0625em) {
     .button-group.round.stack-for-small > * {
       display: inline-block;
@@ -2118,15 +2118,15 @@ button::-moz-focus-inner {
       .button-group.round.stack-for-small > * > .button {
         border-radius: 0; }
       .button-group.round.stack-for-small > *:first-child, .button-group.round.stack-for-small > *:first-child > a, .button-group.round.stack-for-small > *:first-child > button, .button-group.round.stack-for-small > *:first-child > .button {
-        -webkit-top-left-radius: 0.375rem;
-        -webkit-top-right-radius: 0.375rem;
-        border-top-left-radius: 0.375rem;
-        border-top-right-radius: 0.375rem; }
+        -webkit-top-left-radius: 0.3125rem;
+        -webkit-top-right-radius: 0.3125rem;
+        border-top-left-radius: 0.3125rem;
+        border-top-right-radius: 0.3125rem; }
       .button-group.round.stack-for-small > *:last-child, .button-group.round.stack-for-small > *:last-child > a, .button-group.round.stack-for-small > *:last-child > button, .button-group.round.stack-for-small > *:last-child > .button {
-        -webkit-bottom-left-radius: 0.375rem;
-        -webkit-bottom-right-radius: 0.375rem;
-        border-bottom-left-radius: 0.375rem;
-        border-bottom-right-radius: 0.375rem; } }
+        -webkit-bottom-left-radius: 0.3125rem;
+        -webkit-bottom-right-radius: 0.3125rem;
+        border-bottom-left-radius: 0.3125rem;
+        border-bottom-right-radius: 0.3125rem; } }
 
 .button-bar:before, .button-bar:after {
   content: " ";
@@ -6331,8 +6331,8 @@ th.hide-for-touch {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url(/fonts/font-awesome/fontawesome-webfont.eot?1423003433);
-  src: url(/fonts/font-awesome/fontawesome-webfont.eot?&1423003433#iefix) format("embedded-opentype"), url(/fonts/font-awesome/fontawesome-webfont.woff2?1423003433) format("woff2"), url(/fonts/font-awesome/fontawesome-webfont.woff?1423003433) format("woff"), url(/fonts/font-awesome/fontawesome-webfont.ttf?1423003433) format("truetype"), url(/fonts/font-awesome/fontawesome-webfont.svg?1423003433#fontawesomeregular) format("svg");
+  src: url(/fonts/font-awesome/fontawesome-webfont.eot?1434617508);
+  src: url(/fonts/font-awesome/fontawesome-webfont.eot?&1434617508#iefix) format("embedded-opentype"), url(/fonts/font-awesome/fontawesome-webfont.woff2?1434617508) format("woff2"), url(/fonts/font-awesome/fontawesome-webfont.woff?1434617508) format("woff"), url(/fonts/font-awesome/fontawesome-webfont.ttf?1434617508) format("truetype"), url(/fonts/font-awesome/fontawesome-webfont.svg?1434617508#fontawesomeregular) format("svg");
   font-weight: normal;
   font-style: normal; }
 .fa {
@@ -8128,9 +8128,15 @@ header {
 html, body {
   height: 100%; }
 
-.contentwrapper {
-  vertical-align: middle; }
-
+@media only screen and (min-width: 40.0625em) {
+  .valign-center {
+    position: relative;
+    top: 50%; }
+    .valign-center > .columns {
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      -ms-transform: translateY(-50%); } }
 .agraffblue {
   color: #0c99eb; }
 
@@ -8145,9 +8151,6 @@ section {
     background-color: #14171a; }
     section.darked h1, section.darked p {
       color: #FFFFFF; }
-    @media only screen and (min-width: 40.0625em) {
-      section.darked {
-        padding-top: 50px; } }
   section.lighted {
     background-color: #FFFFFF; }
     section.lighted h1, section.lighted p {
@@ -8157,10 +8160,6 @@ section {
     background-position: top right;
     background-size: 50%;
     background-repeat: no-repeat; }
-  section.picture {
-    line-height: 19.5rem; }
-    section.picture > img {
-      vertical-align: bottom; }
 
 h2 > a {
   position: relative;
@@ -8210,8 +8209,8 @@ h2 > a:hover:before {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  padding: 0.375rem 0.75rem 0.4375rem 0.75rem;
-  font-size: 1rem;
+  padding: 0.3125rem 0.625rem 0.375rem 0.625rem;
+  font-size: 0.8125rem;
   background-color: #0c99eb;
   border-color: white;
   color: #FFFFFF;
