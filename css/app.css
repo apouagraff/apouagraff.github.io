@@ -1755,7 +1755,7 @@ kbd {
   border: 1px solid transparent;
   border-radius: 20px;
   padding: 0.4em 0.8em;
-  margin: 0 1rem 1rem 0;
+  margin: 0 1rem;
   font-size: 0.9rem;
   background: #1f2327;
   color: #fff; }
